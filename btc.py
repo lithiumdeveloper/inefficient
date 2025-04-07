@@ -125,7 +125,7 @@ def Gen():
                 failedattempts = 0
                 
                 # Check if the balance is greater than 0
-                if balance_btc > 0.00: #testing CHANGE THIS LATER
+                if balance_btc > 0.00:
                     print(f"LOTTERY! Address: {address}, Balance: {balance_btc} BTC")
                     
                     # Save the address and key to a file
