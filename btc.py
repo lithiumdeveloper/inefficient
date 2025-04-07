@@ -99,7 +99,6 @@ def getWif(privkey):
     return wif
 
 def Gen():
-    global failedattempts
     while True:
         # Generate 32 random bytes
         randomBytes = os.urandom(32)
